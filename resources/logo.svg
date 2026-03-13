@@ -35,27 +35,6 @@
        cx="250"
        cy="250"
        r="234.51053" />
-    <!-- Wheelchair figure: head -->
-    <!-- Wheelchair figure: torso -->
-    <!-- Wheelchair figure: upper arm reaching forward -->
-    <!-- Wheelchair figure: seat / thigh -->
-    <!-- Wheelchair figure: lower leg -->
-    <!-- Wheelchair figure: foot -->
-    <!-- Wheelchair: large wheel (arc approximated as thick circle stroke) -->
-    <!-- Wheelchair: small front wheel -->
-    <!-- Wheelchair: axle / seat support post -->
-    <!-- Game controller body -->
-    <!-- Left grip -->
-    <!-- Right grip -->
-    <!-- D-pad horizontal -->
-    <!-- D-pad vertical -->
-    <!-- Right buttons (4 dots) -->
-    <!-- Controller center bump -->
-    <!-- Text: MAKE -->
-    <!-- Text: GAMING -->
-    <!-- Text: MORE -->
-    <!-- Text: ACCESSIBLE -->
-    <!-- Text: FOR ALL -->
     <g
        id="g5"
        transform="matrix(1.2355178,0,0,1.2355178,-90.197061,-25.221667)">
@@ -64,61 +43,51 @@
          y="129.2888"
          font-family="Montserrat, sans-serif"
          font-weight="900"
-         font-size="52px"
+         font-size="38px"
          letter-spacing="0.894427"
-         id="text13"
-         style="font-size:38.1623px;stroke-width:0.894427"
-         transform="scale(0.89442719,1.118034)"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:38.1623px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#0c525e;fill-opacity:1;stroke-width:0.894427"
-           id="tspan1">MAKE</tspan></text>
+         id="make"
+         style="fill:#0c525e"
+         transform="scale(0.89442719,1.118034)">MAKE</text>
       <text
          x="272.67709"
          y="170.48535"
          font-family="Montserrat, sans-serif"
          font-weight="900"
-         font-size="52px"
+         font-size="38px"
          letter-spacing="0.894427"
-         id="text14"
-         style="font-size:38.1623px;stroke-width:0.894427"
-         transform="scale(0.89442719,1.118034)"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:38.1623px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#0c525e;fill-opacity:1;stroke-width:0.894427"
-           id="tspan2">GAMING</tspan></text>
+         id="gaming"
+         style="fill:#0c525e"
+         transform="scale(0.89442719,1.118034)">GAMING</text>
       <text
          x="270.99792"
          y="212.13983"
          font-family="Montserrat, sans-serif"
          font-weight="900"
-         font-size="52px"
+         font-size="38px"
          letter-spacing="0.894427"
-         id="text15"
-         style="font-size:38.1623px;fill:#0c525e;fill-opacity:1;stroke-width:0.894427"
-         transform="scale(0.89442719,1.118034)"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:38.1623px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#0c525e;fill-opacity:1;stroke-width:0.894427"
-           id="tspan3">MORE</tspan></text>
+         id="more"
+         style="fill:#0c525e;"
+         transform="scale(0.89442719,1.118034)">MORE</text>
       <text
          x="230.56442"
          y="253.79434"
          font-family="Montserrat, sans-serif"
          font-weight="900"
-         font-size="46px"
+         font-size="38px"
          letter-spacing="0.894427"
-         id="text16"
-         style="font-size:38.1623px;stroke-width:0.894427"
-         transform="scale(0.89442719,1.118034)"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:38.1623px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#0c525e;fill-opacity:1;stroke-width:0.894427"
-           id="tspan4">ACCESSIBLE</tspan></text>
+         id="accessible"
+         style="fill:#0c525e;"
+         transform="scale(0.89442719,1.118034)">ACCESSIBLE</text>
       <text
          x="203.52808"
          y="295.44882"
          font-family="Montserrat, sans-serif"
          font-weight="900"
-         font-size="52px"
+         font-size="38px"
          letter-spacing="0.894427"
-         id="text17"
-         style="font-size:38.1623px;stroke-width:0.894427"
-         transform="scale(0.89442719,1.118034)"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:38.1623px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#0c525e;fill-opacity:1;stroke-width:0.894427"
-           id="tspan5">FOR ALL</tspan></text>
+         id="for_all"
+         style="fill:#0c525e;"
+         transform="scale(0.89442719,1.118034)">FOR ALL</text>
       <path
          style="fill:#0c525e;fill-opacity:1;stroke-width:1.14256"
          d="m 157.40422,267.75332 c -44.34239,-4.02835 -57.77077,-64.82339 -19.93194,-90.23901 8.83979,-5.93753 9.39364,-5.92259 10.29969,0.27796 0.95372,6.52689 0.97272,6.29119 -0.5705,7.07319 -28.17878,14.2791 -27.28355,57.17181 1.43594,68.7998 21.80468,8.82831 42.80349,-3.09909 49.33581,-28.02296 0.2773,-1.05806 0.2773,-1.05806 1.15494,0.90691 0.48269,1.08074 2.00517,4.24916 3.38326,7.04093 2.95648,5.98931 2.92607,5.69993 0.96072,9.145 -9.72867,17.05332 -27.50092,26.70493 -46.06792,25.01818 z m 56.16612,-23.5214 c -0.9866,-0.69105 -3.09926,-4.58792 -9.62364,-17.75114 -5.76181,-11.62468 -5.98286,-12.0141 -6.90006,-12.15538 -0.52116,-0.0802 -9.47204,-0.32378 -19.89085,-0.54112 -18.17019,-0.37905 -18.97036,-0.41965 -19.60678,-0.99484 -2.15386,-1.9466 -2.45736,-3.25937 -3.77283,-16.31944 -0.58616,-5.81934 -1.26479,-12.3491 -1.50805,-14.51057 -3.26965,-29.0518 -2.11621,-35.53054 6.32357,-35.51899 5.84082,0.008 8.26815,3.56375 8.94393,13.10183 0.44258,6.24666 1.75566,18.98752 1.97998,19.21181 0.10031,0.10032 8.50325,0.18475 18.67322,0.18771 20.38447,0.006 19.62991,-0.0611 21.48135,1.90821 1.80013,1.91471 1.36199,5.81759 -0.88563,7.88939 -1.64215,1.51368 -1.3543,1.47748 -13.29008,1.67101 -7.78643,0.12625 -25.04542,0.63364 -25.46908,0.74875 -0.0416,0.0115 -0.0755,1.947 -0.0755,4.30153 0,4.67287 0.56642,4.75176 25.42745,3.54161 11.1601,-0.54323 13.22597,0.99895 17.66577,13.1875 0.78734,2.16147 2.65802,6.99077 4.15705,10.73178 4.702,11.73431 4.79064,11.99434 4.80272,14.08796 0.0278,4.81772 -5.32278,9.40049 -8.43245,7.22239 z m -55.50151,-102.3566 c -10.65815,-2.50822 -14.10642,-16.68279 -5.80378,-23.85725 8.04364,-6.95064 20.81966,-2.43757 22.60498,7.98511 1.65275,9.64863 -7.30151,18.10775 -16.8012,15.87214 z"
