@@ -1,0 +1,4 @@
+Primary colours are:
+
+#fbfaf6 (background)
+#0c525e (text)
