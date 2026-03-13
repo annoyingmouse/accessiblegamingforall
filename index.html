@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Gaming For All</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #0c525e;
+      color: #0c525e;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 3rem 1.5rem 2rem;
+    }
+
+    header img {
+      max-width: 340px;
+      width: 100%;
+      height: auto;
+    }
+
+    /* ── Main layout ── */
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    /* ── Card ── */
+    .card {
+      background: #fbfaf6;
+      border-radius: 1.5rem;
+      padding: 2.5rem;
+    }
+
+    .card h2 {
+      font-size: 1.5rem;
+      font-weight: 900;
+      margin-bottom: 1rem;
+      color: #0c525e;
+    }
+
+    .card p {
+      font-size: 1rem;
+      line-height: 1.75;
+      color: #0c525e;
+    }
+
+    .card p + p {
+      margin-top: 0.75rem;
+    }
+
+    /* ── Contact card ── */
+    .contact-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .contact-list a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-weight: 700;
+      color: #0c525e;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+
+    .contact-list a:hover,
+    .contact-list a:focus {
+      opacity: 0.7;
+      text-decoration: underline;
+    }
+
+    .contact-list svg {
+      flex-shrink: 0;
+      width: 1.4rem;
+      height: 1.4rem;
+      fill: #0c525e;
+    }
+
+    /* ── Article photo ── */
+    .card-photo {
+      width: 100%;
+      border-radius: 0.75rem;
+      margin-bottom: 1.25rem;
+      display: block;
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.8rem;
+      color: #fbfaf6;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="resources/logo.svg" alt="Make Gaming More Accessible For All">
+  </header>
+
+  <main>
+
+    <!-- About -->
+    <section class="card" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Us</h2>
+      <p>We are two lifelong friends on a campaign to make gaming more accessible for disabled players everywhere — holding video game companies accountable for the inequality they create.</p>
+      <p><strong>"No matter what disabilities you have, you can still play video games."</strong>
+        <span style="display:block;text-align:right;">— Haddon Macdonald</span></p>
+    </section>
+
+    <!-- Our Story -->
+    <section class="card" aria-labelledby="story-heading">
+      <h2 id="story-heading">Our Story</h2>
+      <img class="card-photo" src="resources/20404769.webp" alt="Haddon Macdonald and Simon Ball, founders of Make Gaming More Accessible For All">
+      <p>Haddon Macdonald and Simon Ball met at The Castle School in Donnington, Newbury, in Spring 2003 and have been lifelong friends ever since.</p>
+      <p>The idea for the campaign began when Haddon, a passionate racing-game fan, realised that more and more titles were dropping support for steering-wheel controllers. For Haddon, who lives with Cerebral Palsy, and for many disabled players across the UK, a standard controller isn't always practical.</p>
+      <p>At first, he assumed it was a one-off issue — but as more games removed steering wheel compatibility entirely, he grew increasingly concerned. He wrote to four major developers, but none replied.</p>
+      <p>In June last year, Haddon met Simon for a morning coffee and shared his frustration. Simon immediately offered to help. He created a Facebook page and email address so players could share their experiences, and designed business cards for them to hand out to friends, family, and anyone interested in gaming accessibility.</p>
+    </section>
+
+    <!-- Mission -->
+    <section class="card" aria-labelledby="mission-heading">
+      <h2 id="mission-heading">Our Mission</h2>
+      <p>Our goal is simple but urgent: to ensure that disabled gamers aren't left behind as game developers phase out accessible control options.</p>
+      <p>We are holding video game companies accountable for the inequality faced by disabled players — because no matter what disabilities you have, you can still play video games.</p>
+    </section>
+
+    <!-- Contact -->
+    <section class="card" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact Us</h2>
+      <p>We'd love to hear from you. Reach out via email or follow us on Facebook.</p>
+      <ul class="contact-list">
+        <li>
+          <a href="mailto:accessablegamingforall@gmail.com">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            accessablegamingforall@gmail.com
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=61577998761458" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+            Facebook — Accessible Gaming For All
+          </a>
+        </li>
+        <li>
+          <a href="https://m.me/61577998761458" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-facebook-messenger" aria-hidden="true"></i>
+            Message us on Messenger
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Accessible Gaming For All</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
