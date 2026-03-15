@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ascessiblegamingforall.co.uk/sitemap.xml
